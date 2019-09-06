@@ -2,7 +2,10 @@
 
 sudo apt-get install -y smartmontools > /dev/null
 
-printf "\n--------CPU Info--------\n\n" > device_info
+read -p "Enter Your name: " name
+printf "<${name}'s Computer>\n" > device_info
+
+printf "\n--------CPU Info--------\n\n" >> device_info
 lscpu | grep -E "Model name|Core\(s\) per socket|Socket\(s\)" >> device_info
 
 printf "\n--------GPU Info--------\n\n" >> device_info
