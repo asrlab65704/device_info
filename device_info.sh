@@ -29,4 +29,4 @@ do
     >> ${output_file}
     printf "\n"
 done
-printf "Finished. Please upload \"%s\"" ${output_file}
+printf "Finished. Please upload \"%s\"\n" ${output_file}
