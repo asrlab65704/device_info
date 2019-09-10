@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo apt-get install -y smartmontools > /dev/null
+sudo apt-get install -y smartmontools
 
 read -p "Enter Your name: " name
 output_file=device_info_${name// /_}.txt
