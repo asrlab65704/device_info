@@ -5,5 +5,3 @@ Script of listing the device info. (CPU, GPU, RAM, Disk)
 ```
 $./device_info.sh
 ```
-
-**Note**: Please do not use whitespace when enter name.
